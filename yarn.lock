@@ -262,7 +262,6 @@
   dependencies:
     "@babel/types" "^7.15.4"
 
-
 "@babel/helper-member-expression-to-functions@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.16.0.tgz#29287040efd197c77636ef75188e81da8bccd5a4"
@@ -277,7 +276,7 @@
   dependencies:
     "@babel/types" "^7.13.12"
 
-"@babel/helper-module-imports@^7.16.0":
+"@babel/helper-module-imports@^7.15.4", "@babel/helper-module-imports@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-module-imports/-/helper-module-imports-7.16.0.tgz#90538e60b672ecf1b448f5f4f5433d37e79a3ec3"
   integrity sha512-kkH7sWzKPq0xt3H1n+ghb4xEMP8k0U7XV3kkB+ZGy69kDk2ySFW1qPi06sjKzFY3t1j6XbJSqr4mF9L7CYVyhg==
@@ -8762,10 +8761,10 @@ jest-snapshot@^27.2.5:
     pretty-format "^27.2.5"
     semver "^7.3.2"
 
-jest-styled-components@^7.0.5:
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/jest-styled-components/-/jest-styled-components-7.0.5.tgz#6da3f1a1c8bd98bccc6bcf9aabfdefdcd88fd92c"
-  integrity sha512-ZR/r3IKNkgaaVIOThn0Qis4sNQtA352qHjhbxSHeLS3FDIvHSUSJoI2b3kzk+bHHQ1VOeV630usERtnyhyZh4A==
+jest-styled-components@^7.0.6:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/jest-styled-components/-/jest-styled-components-7.0.6.tgz#f30a39f778f50b2619636523abee6e4fd50d5654"
+  integrity sha512-asCitkJfaO1TX60nbIBXDUglblDFvKl9aKA5IV09AmO2zL6DC89MgrK73/e7zXzMOpzyVmuXQLLYlsDUSYIb7g==
   dependencies:
     css "^3.0.0"
 
@@ -12398,20 +12397,6 @@ string-width@^5.0.0:
     strip-ansi "^7.0.1"
 
 "string.prototype.matchall@^4.0.0 || ^3.0.1", string.prototype.matchall@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/string.prototype.matchall/-/string.prototype.matchall-4.0.6.tgz#5abb5dabc94c7b0ea2380f65ba610b3a544b15fa"
-  integrity sha512-6WgDX8HmQqvEd7J+G6VtAahhsQIssiZ8zl7zKh1VDMFyL3hRTJP4FTNA3RbIp2TOQ9AYNDcc7e3fH0Qbup+DBg==
-  dependencies:
-    call-bind "^1.0.2"
-    define-properties "^1.1.3"
-    es-abstract "^1.19.1"
-    get-intrinsic "^1.1.1"
-    has-symbols "^1.0.2"
-    internal-slot "^1.0.3"
-    regexp.prototype.flags "^1.3.1"
-    side-channel "^1.0.4"
-
-string.prototype.matchall@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/string.prototype.matchall/-/string.prototype.matchall-4.0.6.tgz#5abb5dabc94c7b0ea2380f65ba610b3a544b15fa"
   integrity sha512-6WgDX8HmQqvEd7J+G6VtAahhsQIssiZ8zl7zKh1VDMFyL3hRTJP4FTNA3RbIp2TOQ9AYNDcc7e3fH0Qbup+DBg==
