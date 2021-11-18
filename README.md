@@ -14,7 +14,7 @@ Nesse projeto usamos:
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 
-## Para inicial
+## Para iniciar
 
 Primeiro, execute o servidor de desenvolvimento:
 
