@@ -1,9 +1,3 @@
-import * as S from './styles'
-
-const Main = ({ title = 'React Avançado' }) => (
-  <S.Wrapper>
-    <S.Title>{title}</S.Title>
-  </S.Wrapper>
-)
+const Main = () => <h1>Travel</h1>
 
 export default Main
