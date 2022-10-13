@@ -14,7 +14,10 @@
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public",
     "postinstall": "husky install",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "generate:component": "yarn plop --plopfile generators/components-plopfile.js",
+    "generate:template": "yarn plop --plopfile generators/template-plopfile.js"
   },
   "lint-staged": {
     "src/**/*": [
